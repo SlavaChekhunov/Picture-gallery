@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script
+      src="https://kit.fontawesome.com/fab76b7aa3.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Paint Gallery</title>
+  </head>
+  <body>
+    <header>
+      <div class="wrapper">
+        <h1><span>Paint Gallery</span></h1>
+        <nav>
+          <ul>
+            <!-- we can click on the links and jump ****put the wrapper inside the header because the background image will go inside the header.-->
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+      <!--wrapper -->
+    </header>
+
+    <main>
+      <section class="about" id="about">
+        <!-- background image on this section -->
+        <div class="wrapper">
+          <div class="imageContainer">
+            <img 
+              src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/image-6@2x.png"
+              alt="Different coloured bottles of paint on one shelve."
+            />
+          </div>
+          <!-- ./imageContainer -->
+
+          <div class="textContainer">
+            <h2>New Products on the Shelves</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
+              neque.
+            </p>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus, incidunt perferendis. Eos, cupiditate repellendus
+              necessitatibus veritatis architecto nostrum ducimus, dignissimos
+              magnam ad nullaaspernatur! Cumque veniam libero consequuntur.
+            </p>
+            <button class="about-read-me">read more</button>
+          </div>
+          <!-- ./textContainer -->
+        </div>
+        <!-- ./wrapper-->
+      </section>
+
+      <section class="gallery" id="gallery">
+        <div class="wrapper">
+          <h2>Latest Exhibitions</h2>
+          <ul>
+            <!-- always group like things together -->
+            <li>
+              <img
+                src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/gallery-image-1@2x.png"
+                alt="Paint on a canvas"
+              />
+            </li>
+            <li>
+              <img
+                src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/gallery-image-3@2x.png"
+                alt="Paint cans and brushes"
+              />
+            </li>
+            <li>
+              <img
+                src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/gallery-image-2@2x.png"
+                alt="Dry paint"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="icons" id="icons">
+        <div class="wrapper">
+          <ul>
+            <!-- always group like things together -->
+            <i class="fa-solid fa-images"> <span>Catalogue</span></i>
+            <i class="fa-solid fa-calendar-days"> <span>Events</span></i>
+            <i class="fa-solid fa-handshake"> <span>Collaborations</span></i>
+          </ul>
+        </div>
+        <!-- ./wrapper-->
+      </section>
+
+      <!-- X Putting the img inside the wrapper doesnt work -->
+      <!-- Next try making 4 distinct boxes and split them. -->
+      <section class="blog" id="blog">
+        <div class="wrapper">
+          <div class="textContainer">
+            <h3>Finding the right brushes</h3>
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Necessitatibus, incidunt perferendis. Eos, cupiditate repellendus
+              necessitatibus veritatis architecto nostrum ducimus, dignissimos
+              magnam ad nullaaspernatur! Cumque veniam libero consequuntur.
+            </p>
+            <button class="read-me">read more</button>
+          </div>
+        </div>
+
+        <div class="imageContainer">
+          <img class="right-image"
+            src="https://psd.hackeryou.com/assignment1-assets/paint-gallery/right-image@2x.png"
+            alt="Different paint brushes"
+          />
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
